@@ -1,0 +1,6 @@
+## add this to build.gradle to print classpath
+task printClasspath {
+    doLast {
+        configurations.testRuntime.each { println it }
+    }
+}

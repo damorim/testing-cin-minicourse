@@ -5,5 +5,5 @@ repositories {
 }
 
 dependencies {
-   testCompile 'junit:junit:4.+', 'org.hamcrest:hamcrest-all:1.3'
+   testCompile 'junit:junit:4.1', 'org.hamcrest:hamcrest-all:1.3'
 }
