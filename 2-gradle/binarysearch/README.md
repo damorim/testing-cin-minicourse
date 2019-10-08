@@ -5,3 +5,4 @@
 4. gradle dependencyInsight --configuration testCompileClasspath --dependency junit
 -- see file printclasspath.txt
 5. gradle printClasspath
+6. gradle wrapper
