@@ -18,8 +18,6 @@ public class SimpleTests {
 
     WebDriver driver;
 
-    String baseUrl = "http://demo.guru99.com/test/newtours/";
-
     @Before
     public void setup() {
         // declaration and instantiation of objects/variables
@@ -36,10 +34,27 @@ public class SimpleTests {
     }
     
     @Test
-    public void testTitle() {
+    public void testTitleMercuryTours() {
+        String baseUrl = "http://demo.guru99.com/test/newtours/";        
         // launch browser
         driver.get(baseUrl);
         Assert.assertEquals("Welcome: Mercury Tours", driver.getTitle());
     }
+
+    @Test
+    public void testNavigateAmazon() {
+        String baseUrl = "http://amazon.com";        
+        // launch browser
+        driver.get(baseUrl);
+        // look up today's deals
+        WebElement element = driver.findElement(By.linkText("Today's Deals"));
+        element.click();
+        // search for some item
+        element = driver.findElement(By.name("field-keywords"));
+        element.sendKeys("MacBook Pro");
+        element = driver.findElement(By.cssSelector(".nav-search-submit > input:nth-child(2)"));
+        element.click();
+        // The oracle is that this test should not crash. There is no **explicit** assertion.
+    }    
 
 }
