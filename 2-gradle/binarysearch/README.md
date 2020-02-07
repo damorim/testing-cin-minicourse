@@ -1,10 +1,20 @@
-1. gradle build
-2. gradle test
-3. gradle dependencies
+**building/compiling code**
+  
+  1. gradle build
+  
+**running tests**
+  
+  2. gradle test
 
-** filtering output **
-  4. gradle dependencies --configuration testCompileClasspath
-  5. gradle dependencyInsight --configuration testCompileClasspath --dependency junit
+**reporting dependencies**
+  
+  3. gradle dependencies
 
-** generating wrapper files **
-6. gradle wrapper
+>**filtering output**
+
+    4. gradle dependencies --configuration testCompileClasspath
+    5. gradle dependencyInsight --configuration testCompileClasspath --dependency junit
+
+**generating wrapper files**
+
+  6. gradle wrapper
