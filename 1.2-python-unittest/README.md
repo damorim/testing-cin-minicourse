@@ -1,5 +1,5 @@
 Sample unit test in Python.
 
-$> python MediaTest.py
+$> python MedianTest.py
 
 $> python -m unittest MedianTest
