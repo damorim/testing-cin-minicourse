@@ -10,10 +10,10 @@
   
   3. gradle dependencies
 
->**filtering output**
+>filtering output
 
-    4. gradle dependencies --configuration testCompileClasspath
-    5. gradle dependencyInsight --configuration testCompileClasspath --dependency junit
+  4. gradle dependencies --configuration testCompileClasspath
+  5. gradle dependencyInsight --configuration testCompileClasspath --dependency junit
 
 **generating wrapper files**
 
