@@ -1,5 +1,3 @@
-Based on tutorial from https://fuzzing-project.org/
-
 1. clone afl repository
  $> git clone https://github.com/google/AFL.git
 
@@ -25,3 +23,8 @@ Based on tutorial from https://fuzzing-project.org/
 
 7. run afl
  $> afl-fuzz -i in -o out ./fuzzgoat @@
+
+===
+Further reading:
+  https://fuzzing-project.org/
+  https://www.fuzzingbook.org/
