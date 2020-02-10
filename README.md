@@ -5,3 +5,4 @@ This repository contains material of a minicourse (~8-10h) entitled "Software Te
 The organization of the course is 80% practice (material of lessons found in numbered directories) and 20% research (discussed in slides).
 
  -Marcelo
+sudo gem install cucumber
