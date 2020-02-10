@@ -1,0 +1,3 @@
+#!/bin/bash
+bundle config set path '/home/damorim/.gem/ruby/2.5.0'
+bundle install
