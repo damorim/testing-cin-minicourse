@@ -1,7 +1,8 @@
 - Java 1.8 or higher
 - Python 3
 - ruby 2.5 or higher
-- bundler ($> sudo gem install bundler)
-sudo apt-get install ruby-dev
-sudo gem install nokogiri -v '1.10.7' --source 'https://rubygems.org/'
-sudo apt-get install libxslt-dev libxml2-dev
+## hard dependencies for ruby
+- sudo gem install bundler ## bundler
+- sudo apt-get install ruby-dev ## provides header file to build some gems
+- sudo apt-get install libxslt-dev libxml2-dev # required by nokogiri
+- sudo gem install nokogiri -v '1.10.7' --source 'https://rubygems.org/'
