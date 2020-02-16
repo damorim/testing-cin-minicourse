@@ -4,11 +4,7 @@ This repository contains material of a minicourse (~8-10h) entitled
 
      "Software Testing: From Practice to Research".
 
-The organization of the course consists of:
-
-     - 80% practice
-
-     - 20% research
+The organization of the course consists of 80% practice and 20% research.
 
 The material for the practice is spread across directories numbered in
 the order they will be covered during class.
