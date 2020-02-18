@@ -1,6 +1,6 @@
 **building/compiling code**
   
-  1. gradle build
+  1. gradlew build
   
 **running tests**
   
